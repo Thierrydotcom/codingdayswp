@@ -22,6 +22,13 @@
 	<?php wp_head(); ?>
 </head>
 <body>
-	<header class="header">
+	<header class="sommaire">
 		<!-- Vous pouvez mettre ici toutes les infos que vous voulez retrouver dans le header de toutes vos pages  -->
+		<img src="images/logo.png" alt="logo site">
+    <nav>
+      <ul class="menu">
+        <li><a href="programme1.html">Titre menu 1</a></li>
+        <li>Titre menu 2</li>
+        <li>Titre menu 3</li>
+      </ul>
 	</header>
