@@ -1,1 +1,87 @@
-/* Silence is golden */
+.titre{
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 0;
+  /*position: absolute;*/
+  /*margin-top: 100px;*/
+  color: white;
+  /*margin-left: 30px;*/
+  /*top:50%;
+  left: 50%;*/
+  font-family: Raleway,trebuchet,arial,helvetica;
+}
+.baseline{
+  z-index: 1;
+
+  /*margin-top: 150px;*/
+  color: white;
+  /*margin-left: 30px;*/
+
+}
+
+.section1 > article {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  text-align: center;
+}
+
+.menu li {
+  display: inline-block;
+  width: 32%;
+}
+
+.sommaire {
+  position: fixed;
+  width: 100%;
+  text-align: center;
+  background-color: #c3e8f1;
+  padding-top: 20px;
+  top: 0px;
+  z-index: 2;
+}
+
+body, .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{
+  font-family: Raleway,trebuchet,arial,helvetica;
+  margin:0;
+}
+.section1{
+    margin-top: 165px;
+    position: relative;
+    background-image: url(images/palmier1.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    width: 100vw;
+    height: 100vh;
+}
+
+.section2 article {
+    display: inline-block;
+    width: 32%;
+    text-align:center;
+    border : 1px solid grey;
+}
+.section2 {
+  text-align:center;
+  margin-top: 20px;
+}
+footer {
+    background-color: #ccc6c6;
+    font-style: italic;
+    text-align: center;
+    font-size: 11px;
+    padding: 2px;
+    margin: 3px;
+}
+
+.titre-section3{
+    text-align: center;
+}
+
+.section3{
+    border: 3px outset blue;
+    margin-top: 15px;
+
+}
